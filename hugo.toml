@@ -31,7 +31,7 @@ avatarURL = "images/avatar.jpg"
 gravatar = "john.doe@example.com"
 dateFormat = "January 2, 2006"
 since = 2019
-Git Commit in Footer, uncomment the line below to enable it
+#Git Commit in Footer, uncomment the line below to enable it
 commit = "https://github.com/luruizhe953-netizen/hugo"
 # Right To Left, shift content direction for languages such as Arabic
 rtl = false
@@ -237,18 +237,18 @@ weight = 5
 url = "contact/"
 
 [languages.zh-CN]  # 添加中文配置
-  languageName = ":cn:"
-  title = "测试"
- [languages.zh-CN.params]
-    author = "睿"
-    info = ["无", "无"]
-    description = "无"
-    keywords = "博客, 技术, 个人"
+languageName = ":cn:"
+title = "测试"
+[languages.zh-CN.params]
+author = "睿"
+info = ["无", "无"]
+description = "无"
+keywords = "博客, 技术, 个人"
 [[languages.zh-CN.menu.main]]
-    name = "关于"
-    weight = 1
-    url = "about/"
+name = "关于"
+weight = 1
+url = "about/"
 [[languages.zh-CN.menu.main]]
-    name = "关于"
-    weight = 1
-    url = "about/"
+name = "关于"
+weight = 1
+url = "about/"
